@@ -7,4 +7,12 @@ import { Component } from '@angular/core';
 })
 export class LoginComponent {
 
+  username = "your username"
+  password = 'superStrongPassword'
+
+  handleLogin(){
+    console.log(this.username);
+
+  }
+
 }

@@ -1,1 +1,4 @@
-<p>login works!</p>
+User Name: <input type="text" name="username" placeholder="your username here" [(ngModel)]="username">
+Password: <input type="password" name="password" placeholder="{{password}}" [(ngModel)]="password">
+
+<button (click)=handleLogin()>Login</button>
